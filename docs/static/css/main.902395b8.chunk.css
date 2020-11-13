@@ -1,0 +1,21 @@
+@import url(https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap);
+:root {
+  --color-crimson: #E32B30;
+  --color-scarlet: #FF1A00;
+  --color-buttercup: #EFA818;
+  --color-atlantis: #9ACE49;
+  --color-dell: #3D5F12;
+  --color-salem: #0A7B44;
+  --color-persian-red: #C9392C;
+  --color-mariner: #2867DB;
+
+  --color-grey: #555555;
+  --color-grey-l1: #757575;
+  --color-grey-l2: #DBDBDB;
+
+  --color-background: #F2F4F7;
+}
+.button{--button-min-height: 28px;--button-font-family: 'Lato';--button-font-size: 11px;--button-weight: 400;--button-border-radius: 4px;--button-background-color: var(--color-grey-l2);--button-color: var(--color-grey);--button-hover-backgound-color: #b9b8b8;--button-primary-background-color: #000;--button-primary-color: #fff;--button-primary-hover-backgound-color: #2c2c2c;--button-padding: 4px 12px;border:0;border-radius:var(--button-border-radius);background-color:var(--button-background-color);color:var(--button-color);min-height:var(--button-min-height);height:auto;height:initial;font:var(--button-weight) var(--button-font-size) var(--button-font-family);display:flex;align-items:center;transition:backgound-color cubic-bezier(0.445, 0.05, 0.55, 0.95) 0.2s;cursor:pointer;padding:var(--button-padding)}.button--primary{--button-background-color: var(--button-primary-background-color);--button-color: var(--button-primary-color);--button-hover-backgound-color: var(--button-primary-hover-backgound-color)}.button--is-icon{--button-padding: 4px 9px}.button:hover{background-color:var(--button-hover-backgound-color)}.button__inner{display:flex;align-items:center}.button__icon-left{margin-right:8px;margin-left:4px}
+
+
+/*# sourceMappingURL=main.902395b8.chunk.css.map*/
