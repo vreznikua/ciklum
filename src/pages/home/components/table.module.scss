@@ -1,0 +1,33 @@
+.table {
+  overflow: scroll;
+  &__wrapper {
+    min-width: 1050px;
+    padding: 20px 36px;
+  }
+}
+
+.range {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  &__pointer {
+    width: 64px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    margin: 0 8px;
+  }
+}
+
+.sort-button {
+  padding: 0;
+  display: inline-block;
+  background-color: #fff;
+  font-weight: inherit;
+  min-height: 0;
+  font-size: inherit;
+  font-family: Arial, 'Lato', -apple-system, BlinkMacSystemFont, sans-serif;
+  &:hover {
+    background-color: #fff;
+  }
+}

@@ -1,0 +1,13 @@
+.link {
+  --link-color: var(--color-mariner);
+  --link-font-family: 'Lato';
+
+  color: var(--link-color);
+  font-family: var(--link-font-family);
+  text-decoration: none;
+  font-weight: bold;
+  
+  &:hover {
+    text-decoration: underline;
+  }
+}

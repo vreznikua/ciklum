@@ -1,0 +1,14 @@
+.text {
+  &--red {
+    color: var(--color-persian-red);
+  }
+  &--green {
+    color: var(--color-salem);
+  }
+  &--grey {
+    color: var(--color-grey-l1);
+  }
+  &--caption {
+    font-size: 10px;
+  }
+}

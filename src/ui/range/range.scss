@@ -1,0 +1,22 @@
+.range {
+  --range-height: 4px;
+
+  height: var(--range-height);
+  background-color: var(--color-grey-l2);
+  width: 100%;
+  position: relative;
+
+  &__point {
+    --range-left: 0%;
+    --point-size: 8px;
+
+    width: var(--point-size);
+    height: var(--point-size);
+    position: absolute;
+    top: 50%;
+    left: var(--range-left);
+    transform: translateY(-50%);
+    border-radius: 50%;
+    background-color: var(--color-grey-l1);
+  }
+}

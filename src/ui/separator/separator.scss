@@ -1,0 +1,13 @@
+.separator {
+  --separator-size: 1px;
+
+  background-color: var(--color-grey-l2);
+  &--vertical {
+    width: var(--separator-size);
+    height: 100%;
+  }
+  &--horizontal {
+    width: 100%;
+    height: var(--separator-size);
+  }
+}

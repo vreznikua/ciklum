@@ -1,0 +1,50 @@
+.table {
+  border-spacing: 0;
+  font-size: 12px;
+  width: 100%;
+
+  &__title {
+    font-weight: bold;
+    color: var(--color-grey);
+  }
+
+  &__body {
+    .table__row:hover {
+      background-color: #f3f4f7;
+    }
+  }
+
+  &__cell {
+    text-align: center;
+    padding-left: 4px;
+    padding-right: 4px;
+
+    &--head {
+      border-bottom: 2px solid var(--color-grey-l1);
+      padding-top: 6px;
+      padding-bottom: 2px;
+      vertical-align: bottom;
+    }
+
+    &--body {
+      border-bottom: 1px solid var(--color-grey-l2);
+      padding-top: 10px;
+      padding-bottom: 5px;
+    }
+
+    &--right {
+      text-align: right;
+    }
+    &--left {
+      text-align: left;
+    }
+    
+    &:first-child {
+      padding-left: 0;
+    }
+    &:last-child {
+      padding-right: 0;
+    }
+  }
+}
+

@@ -1,0 +1,32 @@
+.tabs {
+  &__controls {
+    --tabs-controls-space: 30px;
+    border-bottom: 1px solid #000;
+    margin-bottom: var(--tabs-controls-space);
+  }
+
+  &__control {
+    --control-min-height: 40px;
+    --conrol-paddings: 4px 15px;
+
+    background: none;
+    border: none;
+    font-size: 16px;
+    color: var(--color-grey);
+    border: none;
+    height: initial;
+    background-color: initial;
+    min-height: var(--control-min-height);
+    padding: var(--conrol-paddings);
+    cursor: pointer;
+    border-width: 0 0 6px 0;
+    border-style: solid;
+    border-color: transparent;
+    transition: border-color .2s ease-out;
+
+    &--active {
+      border-color: #000;
+      color: #000;
+    }
+  }
+}

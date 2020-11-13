@@ -1,0 +1,32 @@
+.chip {
+  min-width: 50px;
+  min-height: 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 10px;
+  border-radius: 4px;
+  color: #fff;
+
+  &--grey {
+    color: var(--color-grey-l1);
+    background-color: var(--color-grey-l2);
+  }
+
+  &--orange {
+    background-color: var(--color-buttercup);
+  }
+  &--light-green {
+    background-color: var(--color-atlantis);
+  }
+  &--dark-green {
+    background-color: var(--color-dell);
+  }
+  &--red {
+    background-color: var(--color-scarlet);
+  }
+  &--dark-red {
+    background-color: var(--color-crimson);
+  }
+}

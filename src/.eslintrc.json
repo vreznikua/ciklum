@@ -1,0 +1,31 @@
+{
+  "extends": ["eslint:recommended"],
+  "rules": {
+    "semi": ["error", "never"],
+    "indent": ["error", 2],
+    "import/prefer-default-export": "off",
+    "prefer-destructuring": "warn",
+    "jsx-a11y/label-has-for": [ "error", {
+      "required": {
+        "some": [ "nesting", "id" ]
+      }
+    }],
+    "no-unused-vars": "warn",
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx",  ".tsx"] }],
+    "react/jsx-props-no-spreading": "off",
+    "react/prop-types": [1],
+    "react/jsx-key": [1],
+    "react/no-unused-prop-types": "warn"
+  },
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "moduleDirectory": ["node_modules", "src/"]
+      }
+    }
+  }
+}
