@@ -34,7 +34,7 @@ const rowData = [
     },
     quant: 4.32,
     authors: 4.32,
-    sellSide: null,
+    sellSide: 'NR',
   },
   {
     id: 2,
